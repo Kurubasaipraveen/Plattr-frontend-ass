@@ -1,0 +1,114 @@
+/* Home.css */
+.home {
+    text-align: center;
+    padding: 20px;
+    background-color:transparent; 
+    font-family: 'Arial', sans-serif; 
+}
+
+.default-movies {
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input {
+    margin-left: 100px;
+    height: 35px;
+    margin-top: 20px;
+    padding: 0 10px;
+    font-size: 16px;
+    border: 2px solid #007bff; 
+    border-radius: 25px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+input:focus {
+    border-color: #0056b3; 
+}
+
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+    padding: 50px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: transparent; 
+    border-radius: 8px; 
+}
+
+h1 {
+    color: #007bff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.movie-card {
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+}
+
+.movie-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card img {
+    transition: transform 0.3s ease;
+}
+
+.movie-card:hover img {
+    transform: scale(1.05); 
+}
+
+@media (max-width: 1024px) {
+    .movie-grid {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}
+
+@media (max-width: 768px) {
+    .movie-grid {
+        grid-template-columns: repeat(2, 1fr); 
+        padding: 20px;
+    }
+
+    input {
+        margin-left: 20px; 
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .movie-grid {
+        grid-template-columns: 1fr; 
+    }
+    
+    h1 {
+        font-size: 2rem; 
+    }
+
+    input {
+        width: 100%; 
+        margin-left: 0;
+    }
+}
+button{
+    background-color: #007bff;
+    color: #000;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}

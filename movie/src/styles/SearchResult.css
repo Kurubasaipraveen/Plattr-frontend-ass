@@ -1,0 +1,14 @@
+
+.search-results {
+    padding: 20px;
+  }
+  
+  .search-results h2 {
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  .search-results .movie-grid {
+    padding: 0;
+  }
+  

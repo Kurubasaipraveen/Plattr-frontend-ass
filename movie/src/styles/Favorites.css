@@ -1,0 +1,14 @@
+/* Favorites.css */
+.favorites {
+    padding: 20px;
+  }
+  
+  .favorites h2 {
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  .favorites .movie-grid {
+    padding: 0;
+  }
+  
