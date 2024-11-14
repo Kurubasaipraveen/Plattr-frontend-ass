@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import MovieCard from "../components/MovieCard";
 import '../styles/SearchResult.css'
-const API_URL = "http://www.omdbapi.com/";
+const API_URL = "https://www.omdbapi.com/";
 const API_KEY = "3be7a9af"; 
 
 const SearchResults = () => {
