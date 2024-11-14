@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import '../styles/MovieDetails.css';
 
-const API_URL = "http://www.omdbapi.com/";
+const API_URL = "https://www.omdbapi.com/";
 const API_KEY = "3be7a9af";
 
 const MovieDetail = () => {
