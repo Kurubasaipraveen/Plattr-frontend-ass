@@ -1,5 +1,18 @@
 Movie Explorer is a React-based web application that allows users to search for movies, view detailed information, and explore favorite films. The app utilizes the OMDb API (Open Movie Database) to fetch movie data and display it to users.
 
+
+
+clone :
+git clone https://github.com/Kurubasaipraveen/Plattr-frontend-ass
+cd movie
+npm install
+npm start
+
+vercel-depoy=>:
+https://plattr-frontend-ass.vercel.app/
+
+
+
 Features
 Search for Movies: Allows users to search for movies by title, which returns a list of movie results.
 Movie Details Page: Displays detailed information about a movie, including:
@@ -39,3 +52,6 @@ React Router DOM: A routing library for navigation within the app.
 OMDb API: An external API for fetching movie data.
 Bootstrap: A front-end framework for styling and responsiveness.
 CSS: Custom styles for the layout and appearance of the app
+
+
+
